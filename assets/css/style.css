@@ -1,42 +1,64 @@
-   
-nav {
-    background: '#ebebeb'
+.body, .article{
+    background: grey;
+}
+.article{
+    padding: 50px 10px 10px;
+}
+header, .nav, .section, .aside, .footer{
+    background: white
+}
+.aside{
+    float: right;
+    margin-left: 100px
 }
 
-body {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-color: '#777';
-background: '#777';
-width : '960px';
-font-size: '18px'
-}
-    
-header {
-    background: '#ebebeb'
+header, .nav, .footer {
+    width: 90%;
+    height: 100px;
+    margin: 0 auto 10px
+}   
 
-}
-
-aside {
-    background: '#ebebeb'
-
-}
-        
-section {
-    background: '#ebebeb'
-
-}
-
-article {
-    color: '#ebebeb';
-   background: '#777'
+.body {
+    font-family: Arial, Helvetica, Helvetica, sans-serif;
+color: #777;
+width : 960px;
+font-size: 18px;
 }
                         
-h1, p {
-    color: '#777';
-    background: '#ebebeb'
+h1, h2, p {
+    color: #777;
+    background: #ebebeb;
+    display: inline-block;
+    border: 25px;
+    margin: 5px;
 }
-                    
-footer {
-    background: '#ebebeb'
-
+h1{
+    text-align: left
+}
+img{
+    float:none
+}
+p {
+    padding:10px;
+    text-align: center;
+}
+.section {
+    width: 495px;
+    padding: 10px;
+    margin: 250;
+    margin-right: 100px
+}
+#contact {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    border: 1px;
+    margin: 0 auto 10px
+}
+#portfolio {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    border: 1px;
+    margin: 0 auto 10px
 }
