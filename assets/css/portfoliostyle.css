@@ -54,14 +54,24 @@ a{
     text-decoration: none
 }
 
+table{
+    margin: auto;
+}
+
+div{
+    position: relative;
+}
 figure{
-    width: 200px;
+    position: static;
+    margin: auto;
+    padding: auto
 }
-figure img{
-    width: 100%;
-}
-figure figcaption{
-    text-align: center;
+
+figcaption{
+    position: relative;
+    background-color: teal;
+    margin: auto;
+    margin-top: -20%;
 }
 .gallery{
     display: inline;
